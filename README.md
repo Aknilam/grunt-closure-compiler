@@ -23,7 +23,7 @@ Then you can minify JavaScript calling:
 grunt.initConfig({
   'closure-compiler': {
     frontend: {
-      closurePath: '/src/to/closure-compiler',
+      closurePath: '/src/to/closure-compiler/compiler.jar',
       js: 'static/src/frontend.js',
       jsOutputFile: 'static/js/frontend.min.js',
       maxBuffer: 500,
